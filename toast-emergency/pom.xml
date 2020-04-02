@@ -29,11 +29,6 @@
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.core</artifactId>
     </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>
@@ -48,12 +43,11 @@
             <Bundle-Name>Toast Emergency</Bundle-Name>
             <Bundle-Version>${project.version}</Bundle-Version>
             <Bundle-SymbolicName>org.equinoxosgi.toast.client.emergency</Bundle-SymbolicName>
-            <Export-Package>
-              org.equinoxosgi.toast.client.emergency;version="${project.version}"
-            </Export-Package>
+            <Bundle-Activator>org.equinoxosgi.toast.client.emergency.Activator</Bundle-Activator>
             <Import-Package>
               org.equinoxosgi.toast.dev.airbag;version="${project.version}",
-              org.equinoxosgi.toast.dev.gps;version="${project.version}"
+              org.equinoxosgi.toast.dev.gps;version="${project.version}",
+              org.osgi.framework;version="6.0.0"
             </Import-Package>
           </instructions>
         </configuration>

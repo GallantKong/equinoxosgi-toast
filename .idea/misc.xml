@@ -17,7 +17,7 @@
     <packageJsonPaths />
   </component>
   <component name="Osmorc">
-    <option name="bundlesOutputPath" value="D:\Users\Gallant\AppData\Local\Temp" />
+    <option name="bundlesOutputPath" value="D:/Users/Gallant/AppData/Local/Temp" />
     <option name="frameworkInstanceName" value="Equinox (3.15.200.v20200214-1600)" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
