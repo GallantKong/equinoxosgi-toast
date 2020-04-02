@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1585835943437
+Build-Jdk: 1.8.0_131
+Built-By: Gallant
+Bundle-ManifestVersion: 2
+Bundle-Name: Toast Airbag
+Bundle-SymbolicName: org.equinoxosgi.toast.dev.airbag
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.equinoxosgi.toast.dev.airbag;version="1.0.0.SNAPSHOT
+ "
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1585835944499
+Build-Jdk: 1.8.0_131
+Built-By: Gallant
+Bundle-ManifestVersion: 2
+Bundle-Name: Toast Emergency
+Bundle-SymbolicName: org.equinoxosgi.toast.client.emergency
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.equinoxosgi.toast.client.emergency;version="1.0.0.SN
+ APSHOT";uses:="org.equinoxosgi.toast.dev.airbag,org.equinoxosgi.toast.d
+ ev.gps"
+Import-Package: org.equinoxosgi.toast.dev.airbag;version="1.0.0.SNAPSHOT
+ ",org.equinoxosgi.toast.dev.gps;version="1.0.0.SNAPSHOT"
+Tool: Bnd-2.1.0.20130426-122213
