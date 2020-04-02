@@ -18,8 +18,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="toast-airbag" />
         <module name="toast-gps" />
+        <module name="toast-airbag" />
         <module name="toast-emergency" />
       </profile>
     </annotationProcessing>
