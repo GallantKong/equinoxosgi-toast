@@ -47,7 +47,7 @@
             <Import-Package>
               org.equinoxosgi.toast.dev.airbag;version="${project.version}",
               org.equinoxosgi.toast.dev.gps;version="${project.version}",
-              org.osgi.framework;version="6.0.0"
+              org.osgi.framework;version="[1.5,5.0)"
             </Import-Package>
           </instructions>
         </configuration>
