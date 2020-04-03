@@ -25,12 +25,14 @@ public class Activator implements BundleActivator {
         gpsRef = bundleContext.getServiceReference(IGps.class.getName());
         airbagRef = bundleContext.getServiceReference(IAirbag.class.getName());
         if (gpsRef == null || airbagRef == null) {
+            System.out.println(String.format("gpsRef=%s, airbagRef=%s", gpsRef, airbagRef));
             System.err.println("Unable to acquire GPS ref or airbag ref!");
             return;
         }
         gps = (IGps) bundleContext.getService(gpsRef);
         airbag = (IAirbag) bundleContext.getService(airbagRef);
         if (gps == null || airbag == null) {
+            System.out.println(String.format("gps=%s, airbag=%s", gps, airbag));
             System.err.println("Unable to acquire GPS or airbag!");
             return;
         }
