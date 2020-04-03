@@ -1,10 +1,12 @@
-package org.equinoxosgi.toast.dev.gps;
+package org.equinoxosgi.toast.internal.dev.gps.fake;
+
+import org.equinoxosgi.toast.dev.gps.IGps;
 
 /**
  * @author kongyong
  * @date 2020/4/2
  */
-public class Gps implements IGps {
+public class FakeGps implements IGps {
 
     @Override
     public int getHeading() {

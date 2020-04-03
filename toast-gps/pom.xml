@@ -31,9 +31,13 @@
             <Bundle-Name>Toast Gps</Bundle-Name>
             <Bundle-Version>${project.version}</Bundle-Version>
             <Bundle-SymbolicName>org.equinoxosgi.toast.dev.gps</Bundle-SymbolicName>
+            <Bundle-Activator>org.equinoxosgi.toast.dev.gps.Activator</Bundle-Activator>
             <Export-Package>
               org.equinoxosgi.toast.dev.gps;version="${project.version}"
             </Export-Package>
+            <Import-Package>
+              org.osgi.framework;version="[1.5,5.0)"
+            </Import-Package>
           </instructions>
         </configuration>
       </plugin>

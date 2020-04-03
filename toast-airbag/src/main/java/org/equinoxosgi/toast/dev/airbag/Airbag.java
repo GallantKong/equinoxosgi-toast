@@ -7,7 +7,7 @@ import java.util.List;
  * @author kongyong
  * @date 2020/4/2
  */
-public class Airbag {
+public class Airbag implements IAirbag {
 
     private List<IAirbagListener> listeners;
 
@@ -16,16 +16,19 @@ public class Airbag {
         listeners = new LinkedList<>();
     }
 
+    @Override
     public synchronized void addListener(IAirbagListener listener) {
         listeners.add(listener);
     }
 
-    public synchronized void deployed() {
+    @Override
+    public synchronized void deploy() {
         for (IAirbagListener listener : listeners) {
             listener.deployed();
         }
     }
 
+    @Override
     public synchronized void removeListener(IAirbagListener listener) {
         listeners.remove(listener);
     }
